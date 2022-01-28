@@ -71,7 +71,7 @@ namespace GradeBook
         // }
 
         // Todo: Define explicit constructor
-        public Book(string name) : base(name)
+        public Book(string name)
         {
             _grades = new List<double>();
             // this.Name = name;
